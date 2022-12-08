@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeroComponent } from './components/hero/hero.component';
-import { AboutComponent } from './components/about/about.component';
+import { ProjectComponent } from './components/project/project.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { AboutComponent } from './components/about/about.component';
     LandingPageComponent,
     NavbarComponent,
     HeroComponent,
-    AboutComponent
+    ProjectComponent,
   ],
   imports: [
     BrowserModule,
